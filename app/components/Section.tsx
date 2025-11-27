@@ -14,7 +14,7 @@ export default function Section(props: SectionProps) {
 
     return (
         <section id={id} className="h-screen py-[5rem] snap-start flex">
-            <div className="flex flex-col justify-between items-center h-full w-full max-w-2xl mx-auto pt-10 pb-40">
+            <div className="flex flex-col justify-between items-center h-full w-full max-w-2xl mx-auto pt-32 pb-40">
                 <SectionButton section={name} />
 
                 {children}

@@ -10,7 +10,7 @@ export default function Home() {
 
 
             <Section id={"about-me"} name={"About Me"}>
-                <p className="text-gray-400">
+                <p className="text-gray-400 text-lg">
                     Me = software developer who enjoys building things that work and make sense. I like exploring how technology simplifies everyday problems - from small tools to full projects. I’m driven by curiosity, consistency, and the process of improving through every build.
                     I also capture moments before they tend to fade.
                 </p>
