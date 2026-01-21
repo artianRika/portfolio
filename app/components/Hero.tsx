@@ -2,6 +2,7 @@
 import { motion } from "framer-motion"
 import {Button} from "@/components/ui/button";
 import {GithubIcon, Instagram, Linkedin} from "lucide-react";
+import {MdOutlineEmail} from "react-icons/md";
 
 export function Hero() {
     return (
@@ -34,6 +35,15 @@ export function Hero() {
                 </motion.p>
 
                 <div className={"flex gap-3 mt-20"}>
+                    <a
+                        href="mailto:artianrika@gmail.com"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="w-14 h-14 flex items-center justify-center rounded-full bg-gray-800 text-white hover:bg-white hover:text-gray-800 transition-all duration-300 shadow-md hover:scale-110">
+                            <MdOutlineEmail className="h-8 w-8" />
+                        </button>
+                    </a>
+
                     <a
                         href="https://www.linkedin.com/in/artianrika/"
                         target="_blank"

@@ -13,8 +13,8 @@ export default function Section(props: SectionProps) {
     const {id, name, children} = props;
 
     return (
-        <section id={id} className="h-screen py-[5rem] snap-start flex">
-            <div className="flex flex-col justify-between items-center h-full w-full max-w-2xl mx-auto pt-32 pb-40">
+        <section id={id} className="h-screen py-[1rem] snap-start flex">
+            <div className="flex flex-col justify-start gap-32 items-center h-full w-full max-w-3xl mx-auto pt-32">
                 <SectionButton section={name} />
 
                 {children}

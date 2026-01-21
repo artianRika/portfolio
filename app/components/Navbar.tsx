@@ -25,12 +25,11 @@ export default function Navbar() {
     return (
         <nav className="fixed top-0 w-full backdrop-blur-lg z-50">
             <div className="flex justify-between px-6 py-4">
-                <h1 className="font-bold text-xl">[Logo]</h1>
+                <h1 className="font-bold text-xl">Artian RIKA</h1>
                 <ul className="flex gap-6">
                     <a href="#about-me" className="hover:text-blue-500 transition">About Me</a>
                     <a href="#projects" className="hover:text-blue-500 transition">Projects</a>
                     <a href="#gallery" className="hover:text-blue-500 transition">Gallery</a>
-                    <a href="#contact-me" className="hover:text-blue-500 transition">Contact</a>
                 </ul>
             </div>
 

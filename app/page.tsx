@@ -1,5 +1,8 @@
 import {Hero} from "@/app/components/Hero";
 import Section from "@/app/components/Section";
+import {PhotoCarousel} from "@/app/components/PhotoCarousel";
+import {motion} from "framer-motion";
+import {GithubIcon, Instagram, Linkedin} from "lucide-react";
 
 export default function Home() {
     return (
@@ -22,13 +25,10 @@ export default function Home() {
 
 
             <Section id={"gallery"} name={"Gallery"}>
-                <p> Slide show </p>
+                <PhotoCarousel/>
             </Section>
 
 
-            <Section id={"contact-me"} name={"Contact"}>
-                <p> Contacts.. </p>
-            </Section>
 
         </div>
     );
